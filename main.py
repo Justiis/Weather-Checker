@@ -14,7 +14,7 @@ labelCity = Label(window, )
 def createWeather():
     '''API'''
     json_data = requests.get(api + str(city.get())).json()
-    temp = int(json_data['main']['temp'] - 273.15)
+    temp = "{0:.2f}".format(json_data['main']['temp'] - 273.15)
     statement = str(json_data['weather'][0]['main'])
     humidity = str(json_data['main']['humidity'])
     '''api'''
