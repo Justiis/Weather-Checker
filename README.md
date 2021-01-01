@@ -1,5 +1,5 @@
 # Weather-Checker (api test)
-***Api Test*** Done in 20 mins
+***Api Test*** 
 
 Simple Weather-Checker
 
