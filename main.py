@@ -1,7 +1,7 @@
 from tkinter import *
 import requests
 
-api = "http://api.openweathermap.org/data/2.5/weather?appid=b108bf1ed6f2c40be2ea5a4c0e0f375c&q="
+api = "http://api.openweathermap.org/data/2.5/weather?appid=bsos0e0f375c&q="
 
 '''WINDOW'''
 window = Tk(); window.title('Weather Checker'); window.geometry('400x200+650+300'); window.resizable(0, 0);
